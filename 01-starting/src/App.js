@@ -1,5 +1,5 @@
-import Expenses from "./components/Expenses";
-function App() {
+import Expenses from "./components/Expenses/Expenses";
+const App= ()=> {
   const expenses = [
     {title : 'tandarma',amount : 1200,datb : new Date(2022,1,1)},
     {title : 'meew',amount : 1500,datb : new Date(2022,2,12)},
