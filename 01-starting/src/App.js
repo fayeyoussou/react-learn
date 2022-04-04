@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
 function App() {
   const expenses = [
     {title : 'tandarma',amount : 1200,datb : new Date(2022,1,1)},
@@ -8,13 +8,7 @@ function App() {
   ]
   return (
     <div>
-      <h2>Premier test React Js !</h2>
-      <ExpenseItem expense = {expenses[0]}/>
-      <ExpenseItem expense = {expenses[1]}/>
-      <ExpenseItem expense = {expenses[2]}/>
-      <ExpenseItem expense = {expenses[3]}/>
-
-
+      <Expenses expenses = {expenses}/>
     </div>
   );
 }
